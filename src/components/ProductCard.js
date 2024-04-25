@@ -9,7 +9,7 @@ const ProductCard = (props) => {
   return (
     <>
     <div className={` ${location.pathname === "/store" ? `gr-${grid}` : "col-3" } `}>
-      <Link to="product/:id" className="product-card position-relative">
+      <Link to=":id" className="product-card position-relative">
         
         <div className="wishlist-icon position-absolute">
             <Link><img src="images/wish.svg" alt="wishlist" /></Link>
@@ -78,7 +78,7 @@ const ProductCard = (props) => {
                 Kids headphones bulk 10 pack multi colored for students
             </h5>
 
-            <ReactStarts count={5} size={24} value={3} edit={false} activeColor="#ffd700" />
+            <ReactStarts count={5} size={24} value={4} edit={false} activeColor="#ffd700" />
             <p className={`description ${grid === 12 ? "d-block" : "d-none" }`}>
             Experience the ultimate convenience and
             versatility with our multifunctional smartwatch, 
