@@ -9,6 +9,8 @@ import Color from '../components/Color';
 import { TbGitCompare } from 'react-icons/tb';
 import { AiOutlineHeart } from 'react-icons/ai';
 
+import watch from "../images/watch.jpg";
+
 const SingleProduct = () => {
   const props = {width: 400, height: 600, zoomWidth: 600, img: "http://www.zastavki.com/pictures/originals/2014/Brands____Beautiful_watches_065807_.jpg"};
   const [orderedProduct, setorderedProduct] = useState(true);

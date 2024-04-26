@@ -2,6 +2,8 @@ import React from 'react';
 import ReactStarts from "react-rating-stars-component";
 import { Link } from 'react-router-dom';
 
+import watch from "../images/watch.jpg";
+
 const SpecialProduct = () => {
   return (
     <div className="col-6 mb-3">
@@ -10,7 +12,7 @@ const SpecialProduct = () => {
             <div className="d-flex justify-content-between">
 
                 <div>
-                    <img src="images/watch.jpg" className="img-fluid" alt="watch" />
+                    <img src={watch} className="img-fluid" alt="watch" />
                 </div>
 
                 <div className="special-product-content">
