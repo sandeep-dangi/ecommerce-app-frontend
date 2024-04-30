@@ -10,6 +10,7 @@ import gr from "../images/gr.svg";
 import gr2 from "../images/gr2.svg";
 import gr3 from "../images/gr3.svg";
 import gr4 from "../images/gr4.svg";
+import Container from '../components/Container';
 
 const OurStore = () => {
   const [grid,setGrid] = useState(4);
@@ -19,8 +20,8 @@ const OurStore = () => {
       
       <Meta title={"Our Store"} />
       <BreadCrumb title="Our Store" />
-      <div className="store-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="store-wrapper home-wrapper-2 py-5">
+        
           <div className="row">
 
             {/* Left Sidebar */}
@@ -200,8 +201,8 @@ const OurStore = () => {
             </div>
 
           </div>
-        </div>
-      </div>
+        </Container>
+      
     </>
   );
 };

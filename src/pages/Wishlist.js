@@ -4,6 +4,7 @@ import Meta from '../components/Meta';
 
 import cross from "../images/cross.svg";
 import watch from "../images/watch.jpg";
+import Container from '../components/Container';
 
 const Wishlist = () => {
   return (
@@ -11,8 +12,8 @@ const Wishlist = () => {
        <Meta title={"Wishlist"} />
        <BreadCrumb title="Wishlist" />
       
-       <div className="wishlist-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+       <Container class1="wishlist-wrapper home-wrapper-2 py-5">
+        
             <div className="row">
                 <div className="col-3">
                     <div className="wishlist-card position-relative">
@@ -59,8 +60,8 @@ const Wishlist = () => {
                 </div>
 
             </div>
-        </div>
-       </div>
+        
+       </Container>
     </>
   );
 };
